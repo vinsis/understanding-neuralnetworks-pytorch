@@ -1,2 +1,7 @@
-# understanding-neuralnetworks-pytorch
-Understanding nuts and bolts of neural networks with PyTorch
+## Understanding nuts and bolts of neural networks with PyTorch
+
+__(Work in progress)__
+
+This is a series of articles in an attempt to understand the witchcraft that is the neural networks (using PyTorch).
+
+* [Understanding __Dropout__]()
