@@ -6,4 +6,4 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 
 * [Understanding __Dropout__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/dropout.md)
 
-* [Understand Batch Normalization](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md)
+* [Understanding __Batch Normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md)
