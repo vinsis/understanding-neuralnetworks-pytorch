@@ -1,3 +1,19 @@
+[Introduction](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#introduction)
+
+[An intuitive example of internal covariate shift](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#an-intuitive-example-of-internal-covariate-shift)
+
+[Solution to internal covariate shift](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#solution-to-internal-covariate-shift)
+
+[Batch Normalization may not always be optimal for learning](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#batch-normalization-may-not-always-be-optimal-for-learning)
+
+[Batch Normalization with backpropagation](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#batch-normalization-with-backpropagation)
+
+[Batch Normalization for 2D data](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#batch-normalization-for-2d-data)
+
+[Batch Normalization for 3D inputs](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#batch-normalization-for-3d-inputs)
+
+[Batch Normalization for images (or any 4D input)](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md#batch-normalization-for-images-or-any-4d-input)
+
 ### Introduction
 
 Let's start with a discussion of what problem were the authors of the [original paper](https://arxiv.org/abs/1502.03167) dealing with when they came up with the idea of Batch Normalization:
