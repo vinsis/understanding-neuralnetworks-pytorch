@@ -1,3 +1,26 @@
+[1. Simple example](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#1-simple-example)
+
+[Define a batch of 8 inputs](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#define-a-batch-of-8-inputs)
+
+[Note on values of gradients:](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#note-on-values-of-gradients)
+
+[`x.sum(0)` is same as the weight gradients:](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#xsum0-is-same-as-the-weight-gradients)
+
+[2. Losses calculated from two different batches in two different ways](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#2-losses-calculated-from-two-different-batches-in-two-different-ways)
+
+[A note on values of gradients](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#a-note-on-values-of-gradients)
+
+[ 3. Using `nn.utils.clip_grad_norm` to prevent exploding gradients](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#-3-using-nnutilsclipgradnorm-to-prevent-exploding-gradients)
+
+[`nn.utils.clip_grad_norm` returns total norm of parameter gradients _before_ they are clipped](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#nnutilsclipgradnorm-returns-total-norm-of-parameter-gradients-before-they-are-clipped)
+
+[Using `detach()`](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#using-detach)
+
+[Another example of `detach`](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#another-example-of-detach)
+
+[Not detaching `y1`:](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#not-detaching-y1)
+
+[When is `detach()` used?](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#when-is-detach-used)
 
 ### 1. Simple example
 
@@ -454,7 +477,7 @@ Let's understand it in greater detail.
 
 ### Another example of `detach`
 
-Consider two serial operations on a single fully connected layer. Notice that `y1` is detached _before_ `y2` is calculated. Thus, backpropagation from `y2` will stop at `y1`. The gradients of the linear layer are calculated as if `y1` was a leaf variable. The gradient values can be calculated in a fashion similar to what we did in [our simple example](#1.-Simple-example)
+Consider two serial operations on a single fully connected layer. Notice that `y1` is detached _before_ `y2` is calculated. Thus, backpropagation from `y2` will stop at `y1`. The gradients of the linear layer are calculated as if `y1` was a leaf variable. The gradient values can be calculated in a fashion similar to what we did in [our simple example](#1-Simple-example)
 
 ![](./assets/detached_y1.png)
 
@@ -529,7 +552,7 @@ In this case, backpropagation will continue beyond `y1`:
 
 Let's verify this. For sake of simplicity, let's just take a look at how bias gradients are calculated.
 
-When gradients from `y2` are backpropagated, similar to the calculations we did in [our simple example](#1.-Simple-example), we have:
+When gradients from `y2` are backpropagated, similar to the calculations we did in [our simple example](#1-Simple-example), we have:
 
 > $\frac{\partial Loss}{\partial bias} = 10$
 
