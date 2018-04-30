@@ -12,7 +12,7 @@
 
 [ 3. Using `nn.utils.clip_grad_norm` to prevent exploding gradients](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#3-using-nnutilsclip_grad_norm-to-prevent-exploding-gradients)
 
-* [`nn.utils.clip_grad_norm` returns total norm of parameter gradients _before_ they are clipped](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#nnutilsclipgradnorm-returns-total-norm-of-parameter-gradients-before-they-are-clipped)
+* [`nn.utils.clip_grad_norm` returns total norm of parameter gradients _before_ they are clipped](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#nnutilsclip_grad_norm-returns-total-norm-of-parameter-gradients-before-they-are-clipped)
 
 [4. Using `detach()`](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md#using-detach)
 
