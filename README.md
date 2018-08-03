@@ -4,10 +4,10 @@ __(Work in progress)__
 
 This is a series of articles in an attempt to understand the witchcraft that is the neural networks (using PyTorch).
 
-* [Understanding __Dropout__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/dropout.md)
+* [__Dropout__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/dropout.md)
 
-* [Understanding __Batch Normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md)
+* [__Batch normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/batchnorm.md)
 
-* [Understanding __Backpropagation__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md)
+* [__Backpropagation and detach__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md)
 
 * [__Groups in convolution__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/groups.md)
