@@ -11,3 +11,5 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 * [__Backpropagation and detach__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/backprop.md)
 
 * [__Groups in convolution__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/groups.md)
+
+* [__Losses in PyTorch__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/Understanding%20losses.md)
