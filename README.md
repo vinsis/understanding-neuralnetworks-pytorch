@@ -13,3 +13,5 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 * [__Groups in convolution__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/groups.md)
 
 * [__Losses in PyTorch__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/Understanding%20losses.md)
+
+* [__Forward and backward hooks__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/hooks.md)
