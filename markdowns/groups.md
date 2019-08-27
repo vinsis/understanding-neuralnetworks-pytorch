@@ -32,7 +32,7 @@ for n,c,h,w in product( *[range(i) for i in x.size()] ):
 
 Here is how it can be explained visually:
 
-![](./assets/groups_1.png)
+![](../assets/groups_1.png)
 
 Define convolutional layers with number of groups = 1,2 and 4:
 
@@ -116,7 +116,7 @@ _ = [print(conv(x).mean().item()) for conv in conv_nets]
 y = conv_g4(x)
 ```
 
-![](./assets/groups_2.png)
+![](../assets/groups_2.png)
 
 
 ```python
