@@ -479,7 +479,7 @@ Let's understand it in greater detail.
 
 Consider two serial operations on a single fully connected layer. Notice that `y1` is detached _before_ `y2` is calculated. Thus, backpropagation from `y2` will stop at `y1`. The gradients of the linear layer are calculated as if `y1` was a leaf variable. The gradient values can be calculated in a fashion similar to what we did in [our simple example](#1-Simple-example)
 
-![](./assets/detached_y1.png)
+![](../assets/detached_y1.png)
 
 
 ```python
@@ -548,7 +548,7 @@ y1.sum(0)
 
 In this case, backpropagation will continue beyond `y1`:
 
-![](assets/undetached_y1.png)
+![](../assets/undetached_y1.png)
 
 Let's verify this. For sake of simplicity, let's just take a look at how bias gradients are calculated.
 
