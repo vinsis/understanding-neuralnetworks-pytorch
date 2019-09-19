@@ -6,6 +6,8 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 
 ### Basic
 
+* [__Gradient descent and various ways to implement it in PyTorch__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/basics.md)
+
 * [__Dropout__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/dropout.md)
 
 * [__Batch normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/batchnorm.md)
