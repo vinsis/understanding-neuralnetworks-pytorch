@@ -3,3 +3,4 @@ toc.md
 .ipynb_checkpoints/**
 __pycache__/**
 *.ipynb
+**/.DS_Store
