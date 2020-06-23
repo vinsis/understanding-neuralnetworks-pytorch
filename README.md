@@ -23,3 +23,5 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 * [__Hooks__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/hooks.md)
 
 * [__Weight normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/weightnorm.md)
+
+* [__Einstein summation__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/einstein_summation.md)
