@@ -16,6 +16,8 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 
 * [__Losses in PyTorch__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/Understanding%20losses.md)
 
+* [__register_buffer__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/register_buffer.md)
+
 ### Intermediate
 
 * [__Groups in convolution__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/groups.md)
