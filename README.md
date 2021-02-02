@@ -27,3 +27,5 @@ This is a series of articles in an attempt to understand the witchcraft that is 
 * [__Weight normalization__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/weightnorm.md)
 
 * [__Einstein summation__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/einstein_summation.md)
+
+* [__Instance and layer normalizations__](https://github.com/vinsis/understanding-neuralnetworks-pytorch/blob/master/markdowns/IN_LN_manual_calculations.md)
